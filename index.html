@@ -1,63 +1,220 @@
 <!DOCTYPE html>
-<htm1>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Distopia Digital</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">Distopia Digital</div>
+        <nav>
+            <ul>
+                <li><a href="#">Favoritos</a></li>
+                <li><a href="#">Carrinho</a></li>
+                <li><a href="#">Perfil do Usuário</a></li>
+            </ul>
+        </nav>
+        <div class="search-bar">
+            <input type="text" placeholder="Pesquisar livros...">
+            <button>Buscar</button>
+        </div>
+    </header>
 
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="with=device-width, initial-scale=1.0">
-        <title>DistopiaDigital</title>
-        <link rel="stylesheet" href="style.css">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/c2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
-        <link rel="stylesheet" href="style.css">
-     </head>
+    <main>
+        <section class="intro">
+            <p>Bem-vindo à Distopia Digital, sua livraria online especializada em livros sobre distopias. Explore as obras mais icônicas deste gênero literário.</p>
+        </section>
 
-     <body>
-        <header class= "cabecalho">
-            <div class="container">
-                <input type="checkbox" id="menu" class="container_botao">
-                <label for="menu">
-                    <span class="cabecalho__menu-hamburguer container__imagem"></span>
-                    </label>
-                    <ul class="lista-menu">
-                        <li class="lista-menu__titulo">Categorias</li>
-                        <li class="lista-menu__item">
-                            <a href="#" class="lista-menu__link">Prssssogamação</a>
-                            </li>
-                            <li class="lista-menu__item">
-                                <a href="#" class="lista-menu__link">Matemática</a>
-                            </li>
+        <section class="books-section">
+            <h2>Livros Disponíveis</h2>
+            <div class="books-grid">
+                <!-- Livro 1 -->
+                <div class="book">
+                    <img src="WhatsApp Image 2024-08-26 at 01.25.46.jpeg" alt="Blade Runner">
+                    <div class="book-info">
+                        <h3>Blade Runner</h3>
+                        <button class="info-btn" data-title="Blade Runner" data-author="Philip K. Dick" data-date="1968" data-synopsis="Um futuro sombrio onde androides se misturam com humanos, e a linha entre o real e o artificial se torna indistinta.">Ver Detalhes</button>
+                        <button class="read-btn">Ler</button>
+                        <button class="buy-btn">Comprar</button>
+                    </div>
+                </div>
 
-                            </ul>
-                            <img src "img"
+                <!-- Livro 2 -->
+                <div class="book">
+                    <img src="WhatsApp Image 2024-08-26 at 01.26.28.jpeg" alt="Admirável Mundo Novo">
+                    <div class="book-info">
+                        <h3>Admirável Mundo Novo</h3>
+                        <button class="info-btn" data-title="Admirável Mundo Novo" data-author="Aldous Huxley" data-date="1932" data-synopsis="Uma sociedade futurista onde a tecnologia e o condicionamento controlam a vida humana.">Ver Detalhes</button>
+                        <button class="read-btn">Ler</button>
+                        <button class="buy-btn">Comprar</button>
+                    </div>
+                </div>
 
+                <!-- Livro 3 -->
+                <div class="book">
+                    <img src="WhatsApp Image 2024-08-26 at 01.23.19 (1).jpeg" alt="1984">
+                    <div class="book-info">
+                        <h3>1984</h3>
+                        <button class="info-btn" data-title="1984" data-author="George Orwell" data-date="1949" data-synopsis="Uma distopia onde o estado vigia cada movimento de seus cidadãos.">Ver Detalhes</button>
+                        <button class="read-btn">Ler</button>
+                        <button class="buy-btn">Comprar</button>
+                    </div>
+                </div>
 
+                <!-- Livro 4 -->
+                <div class="book">
+                    <img src="WhatsApp Image 2024-08-26 at 01.23.20.jpeg" alt="Fahrenheit 451">
+                    <div class="book-info">
+                        <h3>Fahrenheit 451</h3>
+                        <button class="info-btn" data-title="Fahrenheit 451" data-author="Ray Bradbury" data-date="1953" data-synopsis="Em um futuro opressivo, os bombeiros incendeiam livros para manter a sociedade ignorante.">Ver Detalhes</button>
+                        <button class="read-btn">Ler</button>
+                        <button class="buy-btn">Comprar</button>
+                    </div>
+                </div>
 
+                <!-- Livro 5 -->
+                <div class="book">
+                    <img src="WhatsApp Image 2024-08-26 at 01.23.24.jpeg" alt="A Estrada">
+                    <div class="book-info">
+                        <h3>A Estrada</h3>
+                        <button class="info-btn" data-title="A Estrada" data-author="Cormac McCarthy" data-date="2006" data-synopsis="Um pai e seu filho atravessam um mundo pós-apocalíptico em busca de sobrevivência.">Ver Detalhes</button>
+                        <button class="read-btn">Ler</button>
+                        <button class="buy-btn">Comprar</button>
+                    </div>
+                </div>
 
+                <!-- Livro 6 -->
+                <div class="book">
+                    <img src="WhatsApp Image 2024-08-26 at 01.23.29.jpeg" alt="Ensaio Sobre a Cegueira">
+                    <div class="book-info">
+                        <h3>Ensaio Sobre a Cegueira</h3>
+                        <button class="info-btn" data-title="Ensaio Sobre a Cegueira" data-author="José Saramago" data-date="1995" data-synopsis="Uma misteriosa epidemia de cegueira se espalha, levando a sociedade ao colapso.">Ver Detalhes</button>
+                        <button class="read-btn">Ler</button>
+                        <button class="buy-btn">Comprar</button>
+                    </div>
+                </div>
 
+                <!-- Livro 7 -->
+                <div class="book">
+                    <img src="WhatsApp Image 2024-08-26 at 01.23.29 (1).jpeg" alt="O Conto da Aia">
+                    <div class="book-info">
+                        <h3>O Conto da Aia</h3>
+                        <button class="info-btn" data-title="O Conto da Aia" data-author="Margaret Atwood" data-date="1985" data-synopsis="Em um futuro teocrático, as mulheres são subjugadas e forçadas a procriar.">Ver Detalhes</button>
+                        <button class="read-btn">Ler</button>
+                        <button class="buy-btn">Comprar</button>
+                    </div>
+                </div>
 
+                <!-- Livro 8 -->
+                <div class="book">
+                    <img src="WhatsApp Image 2024-08-26 at 01.23.29 (2).jpeg" alt="Laranja Mecânica">
+                    <div class="book-info">
+                        <h3>Laranja Mecânica</h3>
+                        <button class="info-btn" data-title="Laranja Mecânica" data-author="Anthony Burgess" data-date="1962" data-synopsis="Um jovem delinquente em uma sociedade futurista passa por uma reabilitação brutal.">Ver Detalhes</button>
+                        <button class="read-btn">Ler</button>
+                        <button class="buy-btn">Comprar</button>
+                    </div>
+                </div>
 
+                <!-- Livro 9 -->
+                <div class="book">
+                    <img src="WhatsApp Image 2024-08-26 at 01.23.30.jpeg" alt="Silo">
+                    <div class="book-info">
+                        <h3>Silo</h3>
+                        <button class="info-btn" data-title="Silo" data-author="Hugh Howey" data-date="2011" data-synopsis="Em um futuro pós-apocalíptico, os sobreviventes vivem em um silo subterrâneo, onde o controle é absoluto.">Ver Detalhes</button>
+                        <button class="read-btn">Ler</button>
+                        <button class="buy-btn">Comprar</button>
+                    </div>
+                </div>
 
+                <!-- Livro 10 -->
+                <div class="book">
+                    <img src="WhatsApp Image 2024-08-26 at 01.23.30 (1).jpeg" alt="Eu Sou a Lenda">
+                    <div class="book-info">
+                        <h3>Eu Sou a Lenda</h3>
+                        <button class="info-btn" data-title="Eu Sou a Lenda" data-author="Richard Matheson" data-date="1954" data-synopsis="O último homem na Terra luta contra vampiros que tomaram conta do planeta.">Ver Detalhes</button>
+                        <button class="read-btn">Ler</button>
+                        <button class="buy-btn">Comprar</button>
+                    </div>
+                </div>
 
+                <!-- Livro 11 -->
+                <div class="book">
+                    <img src="WhatsApp Image 2024-08-26 at 01.24.48.jpeg" alt="O Homem do Castelo Alto">
+                    <div class="book-info">
+                        <h3>O Homem do Castelo Alto</h3>
+                        <button class="info-btn" data-title="O Homem do Castelo Alto" data-author="Philip K. Dick" data-date="1962" data-synopsis="Em um mundo alternativo onde o Eixo venceu a Segunda Guerra Mundial, a realidade é distorcida.">Ver Detalhes</button>
+                        <button class="read-btn">Ler</button>
+                        <button class="buy-btn">Comprar</button>
+                    </div>
+                </div>
 
+                <!-- Livro 12 -->
+                <div class="book">
+                    <img src="WhatsApp Image 2024-08-26 at 01.24.47.jpeg" alt="Neuromancer">
+                    <div class="book-info">
+                        <h3>Neuromancer</h3>
+                        <button class="info-btn" data-title="Neuromancer" data-author="William Gibson" data-date="1984" data-synopsis="Um hacker é contratado para realizar um último trabalho em um mundo dominado pela tecnologia e inteligência artificial.">Ver Detalhes</button>
+                        <button class="read-btn">Ler</button>
+                        <button class="buy-btn">Comprar</button>
+                    </div>
+                </div>
 
+                <!-- Livro 13 -->
+                <div class="book">
+                    <img src="WhatsApp Image 2024-08-26 at 01.23.30 (2).jpeg" alt="Jogos Vorazes">
+                    <div class="book-info">
+                        <h3>Jogos Vorazes</h3>
+                        <button class="info-btn" data-title="Jogos Vorazes" data-author="Suzanne Collins" data-date="2008" data-synopsis="Em uma distopia futurista, adolescentes são forçados a lutar até a morte em um evento televisionado.">Ver Detalhes</button>
+                        <button class="read-btn">Ler</button>
+                        <button class="buy-btn">Comprar</button>
+                    </div>
+                </div>
 
+                <!-- Livro 14 -->
+                <div class="book">
+                    <img src="WhatsApp Image 2024-08-26 at 01.23.31.jpeg" alt="A Dança da Morte">
+                    <div class="book-info">
+                        <h3>A Dança da Morte</h3>
+                        <button class="info-btn" data-title="A Dança da Morte" data-author="Stephen King" data-date="1978" data-synopsis="Após um vírus mortal devastar a Terra, os sobreviventes se dividem entre o bem e o mal.">Ver Detalhes</button>
+                        <button class="read-btn">Ler</button>
+                        <button class="buy-btn">Comprar</button>
+                    </div>
+                </div>
 
+                <!-- Livro 15 -->
+                <div class="book">
+                    <img src="WhatsApp Image 2024-08-26 at 01.25.15.jpeg" alt="Periféricos">
+                    <div class="book-info">
+                        <h3>Periféricos</h3>
+                        <button class="info-btn" data-title="Periféricos" data-author="William Gibson" data-date="2014" data-synopsis="No futuro, a tecnologia de realidade virtual se entrelaça com a vida real, e o controle é absoluto.">Ver Detalhes</button>
+                        <button class="read-btn">Ler</button>
+                        <button class="buy-btn">Comprar</button>
+                    </div>
+                </div>
+            </div>
+            <div class="see-more">
+                <button>Ver Mais</button>
+            </div>
+        </section>
+    </main>
 
+    <footer>
+        <p>&copy; 2024 Distopia Digital. Todos os direitos reservados. Contato: distopiadigita@gmail.com</p>
+    </footer>
 
+    <div id="book-modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h3 id="modal-title"></h3>
+            <p><strong>Autor:</strong> <span id="modal-author"></span></p>
+            <p><strong>Data de Lançamento:</strong> <span id="modal-date"></span></p>
+            <p id="modal-synopsis"></p>
+        </div>
+    </div>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    <script src="script.js"></script>
+</body>
+</html>
